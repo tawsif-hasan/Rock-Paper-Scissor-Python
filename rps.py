@@ -1,7 +1,8 @@
 import random
 
-user = input("Choose: R for rock, P for paper and S for scissors")
-computer = random.choice(("R", "P", "S"))
+
+user = input("Choose: R for rock, P for paper and S for scissors") #User's Choice
+computer = random.choice(("R", "P", "S")) #Computer's random choice
 
 if (user == "R" and computer == "S") or (user == "S" and computer == "P") or (user == "P" and computer == "R"):
     print(computer)
